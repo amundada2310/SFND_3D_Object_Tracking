@@ -1,0 +1,3 @@
+Lidar Observations:
+For TTc computaion with lidar all teh results were resonable in range of 8s - 16s, which were similar to what I observed for the Camera TTC detection.
+This is because of using the median approach for calculating TTC with Lidar as well as with Camera.

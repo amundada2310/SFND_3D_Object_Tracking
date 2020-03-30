@@ -1,0 +1,305 @@
+After running various combinations it was observed the ttc with lidar and camera was not that different.
+This is Median approach was used in both cases in Camera and Lidar TTC determination.
+
+With detector type FAST got the best results for both ttc lidar and ttc camera. However, with detector type like HARRIS and ORB didnt get reliable value for ttc camera computations, also values for ttc lidar looked not that reasonable.
+
+This document provides e ttccamera and ttclidar results for FAST-BRIEF , FAST - BRISK, FAST - ORB, HARRIS - ORB, ORB - ORB, SHITOMASI - ORB combinations for all the frame index.
+
+FAST-BRIEF COMBINATION- Results
+
+ Time to compute the TTC with camera and Lidar in seconds:
+ 1: 12.5156 time for lidar compute 12.4572 time for camera compute
+
+ 2: 12.6142 time for lidar compute 12.8595 time for camera compute
+
+ 3: 14.091 time for lidar compute 13.0226 time for camera compute
+
+ 4: 16.6894 time for lidar compute 12.7619 time for camera compute
+
+ 5: 15.9082 time for lidar compute 13.3459 time for camera compute
+
+ 6: 12.6787 time for lidar compute 13.3206 time for camera compute
+
+ 7: 11.9844 time for lidar compute 13.2219 time for camera compute
+
+ 8: 13.1241 time for lidar compute 12.7975 time for camera compute
+
+ 9: 13.0241 time for lidar compute 13.4473 time for camera compute
+
+ 10: 11.1746 time for lidar compute 12.9 time for camera compute
+
+ 11: 12.8086 time for lidar compute 12.2451 time for camera compute
+
+ 12: 8.95978 time for lidar compute 11.9536 time for camera compute
+
+ 13: 9.96439 time for lidar compute 11.3176 time for camera compute
+
+ 14: 9.59863 time for lidar compute 10.3028 time for camera compute
+
+ 15: 8.57352 time for lidar compute 11.5459 time for camera compute
+
+ 16: 9.51617 time for lidar compute 10.4194 time for camera compute
+
+ 17: 9.54658 time for lidar compute 9.0526 time for camera compute
+
+ 18: 8.3988 time for lidar compute 11.414 time for camera compute
+
+
+
+FAST-BRISK COMBINATION- Results
+
+ Time to compute the TTC with camera and Lidar in seconds:
+
+1. 12.5156 time for lidar compute 12.886 time for camera compute
+
+2. 12.6142 time for lidar compute 12.1206 time for camera compute
+
+3. 14.091 time for lidar compute 13.9431 time for camera compute
+
+4. 16.6894 time for lidar compute 12.602 time for camera compute
+
+5. 15.9082 time for lidar compute 13.0881 time for camera compute
+
+6. 12.6787 time for lidar compute 14.2881 time for camera compute
+
+7. 11.9844 time for lidar compute 13.3261 time for camera compute
+
+8. 13.1241 time for lidar compute 11.9215 time for camera compute
+
+9. 13.0241 time for lidar compute 12.6032 time for camera compute
+
+10. 11.1746 time for lidar compute 13.2539 time for camera compute
+
+11. 12.8086 time for lidar compute 11.72 time for camera compute
+
+12. 8.95978 time for lidar compute 12.6115 time for camera compute
+
+13. 9.96439 time for lidar compute 11.8426 time for camera compute
+
+14. 9.59863 time for lidar compute 11.6295 time for camera compute
+
+15. 8.57352 time for lidar compute 11.0468 time for camera compute
+
+16. 9.51617 time for lidar compute 12.5109 time for camera compute
+
+17. 9.54658 time for lidar compute 10.6011 time for camera compute
+
+18. 8.3988 time for lidar compute 11.3371 time for camera compute
+
+
+
+FAST-ORB COMBINATION- Results
+
+Time to compute the TTC with camera and Lidar in seconds:
+
+1. 12.5156 time for lidar compute 10.6554 time for camera compute
+
+2. 12.6142 time for lidar compute 12.4514 time for camera compute
+
+3. 14.091 time for lidar compute 15.917 time for camera compute
+
+4. 12.768 time for camera compute 12.768 : time to compute camera in s 16.6894 : time to compute lidar in s
+
+5. 15.9082 time for lidar compute 13.2154 time for camera compute
+
+6. 12.6787 time for lidar compute 12.2608 time for camera compute
+
+7. 11.9844 time for lidar compute 11.8743 time for camera compute
+
+8. 13.1241 time for lidar compute 12.395 time for camera compute
+
+9. 13.0241 time for lidar compute 12.1132 time for camera compute
+
+10 11.1746 time for lidar compute 12.6702 time for camera compute
+
+11. 12.8086 time for lidar compute 12.3962 time for camera compute
+
+12. 8.95978 time for lidar compute 12.7067 time for camera compute
+
+13. 9.96439 time for lidar compute 11.7306 time for camera compute
+
+14. 9.59863 time for lidar compute 10.8955 time for camera compute
+
+15. 8.57352 time for lidar compute 10.9009 time for camera compute
+
+16. 9.51617 time for lidar compute 10.2908 time for camera compute
+
+17. 9.54658 time for lidar compute 10.4317 time for camera compute
+
+18. 8.3988 time for lidar compute 11.1759 time for camera compute
+
+
+
+HARRIS-ORB COMBINATION- Results
+
+Time to compute the TTC with camera and Lidar in seconds:
+
+
+1. 12.5156 time for lidar compute
+10.9082 time for camera compute
+
+2.12.6142 time for lidar compute
+11.0081 time for camera compute
+
+3. 14.091 time for lidar compute
+-11.4731 time for camera compute
+
+4. 16.6894 time for lidar compute
+11.7693 time for camera compute
+
+5. 15.9082 time for lidar compute
+35.3833 time for camera compute
+
+6. 12.6787 time for lidar compute
+13.5907 time for camera compute
+
+7. 11.9844 time for lidar compute
+13.6036 time for camera compute
+
+8. 13.1241 time for lidar compute
+13.5704 time for camera compute
+
+9. 13.0241 time for lidar compute
+inf time for camera compute
+
+10. 11.1746 time for lidar compute
+inf time for camera compute
+
+11. 12.8086 time for lidar compute
+11.2142 time for camera compute
+
+13. 8.95978 time for lidar compute
+11.9536 time for camera compute
+
+14. 9.96439 time for lidar compute
+13.8672 time for camera compute
+
+15. 9.59863 time for lidar compute
+6.06984 time for camera compute
+
+16. 8.57352 time for lidar compute
+inf time for camera compute
+
+17. 9.51617 time for lidar compute
+6.52962 time for camera compute
+
+18. 9.54658 time for lidar compute
+12.5848 time for camera compute
+
+
+ORB-ORB COMBINATION- Results
+
+Time to compute the TTC with camera and Lidar in seconds:
+
+1. 12.5156 time for lidar compute 17.5984 time for camera compute
+17.5984 : time to compute camera in s 12.5156 : time to compute lidar in s
+
+2. 12.6142 time for lidar compute
+inf time for camera compute
+
+3. 14.091 time for lidar compute
+26.1822 time for camera compute
+
+4. 16.6894 time for lidar compute
+35.3577 time for camera compute
+
+5. 15.9082 time for lidar compute
+29.0177 time for camera compute
+
+6. 12.6787 time for lidar compute
+inf time for camera compute
+
+7. 11.9844 time for lidar compute
+inf time for camera compute
+
+8. 13.1241 time for lidar compute
+inf time for camera compute
+
+9. 13.0241 time for lidar compute
+inf time for camera compute
+
+10 11.1746 time for lidar compute
+13.3055 time for camera compute
+
+11. 12.8086 time for lidar compute
+9.35938 time for camera compute
+
+12. 8.95978 time for lidar compute
+inf time for camera compute
+
+13. 9.96439 time for lidar compute
+inf time for camera compute
+
+14. 9.59863 time for lidar compute
+39.1271 time for camera compute
+
+15. 8.57352 time for lidar compute
+inf time for camera compute
+
+16. 9.51617 time for lidar compute
+26.3083 time for camera compute
+
+17. 9.54658 time for lidar compute
+18.3228 time for camera compute
+
+18. 8.3988 time for lidar compute
+59.7626 time for camera compute
+
+
+SHITOMASI-ORB COMBINATION- Results
+
+Time to compute the TTC with camera and Lidar in seconds:
+
+1. 12.5156 time for lidar compute
+13.6697 time for camera compute
+
+2. 12.6142 time for lidar compute
+12.3445 time for camera compute
+
+3. 14.091 time for lidar compute
+12.1 time for camera compute
+
+4. 16.6894 time for lidar compute
+12.5389 time for camera compute
+
+5. 15.9082 time for lidar compute
+13.2826 time for camera compute
+
+6. 12.6787 time for lidar compute
+13.9909 time for camera compute
+
+7. 11.9844 time for lidar compute
+12.4368 time for camera compute
+
+8. 13.1241 time for lidar compute
+13.712 time for camera compute
+
+9. 13.0241 time for lidar compute
+10.5794 time for camera compute
+
+10. 11.1746 time for lidar compute
+12.7353 time for camera compute
+
+11. 12.8086 time for lidar compute
+11.6215 time for camera compute
+
+12. 8.95978 time for lidar compute
+11.6118 time for camera compute
+
+13. 9.96439 time for lidar compute
+12.3243 time for camera compute
+
+14. 9.59863 time for lidar compute
+11.2972 time for camera compute
+
+15. 8.57352 time for lidar compute
+9.63708 time for camera compute
+
+16. 9.51617 time for lidar compute
+12.6787 time for camera compute
+
+17. 9.54658 time for lidar compute
+11.1201 time for camera compute
+
+18. 8.3988 time for lidar compute
+9.64049 time for camera compute
