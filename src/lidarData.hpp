@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <fstream>
 #include <string>
-
 #include "dataStructures.h"
 
 void cropLidarPoints(std::vector<LidarPoint> &lidarPoints, float minX, float maxX, float maxY, float minZ, float maxZ, float minR);
