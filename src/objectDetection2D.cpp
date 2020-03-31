@@ -9,7 +9,6 @@
 
 #include "objectDetection2D.hpp"
 
-
 using namespace std;
 
 // detects objects in an image using the YOLO library and a set of pre-trained objects from the COCO database;
