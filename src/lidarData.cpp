@@ -5,7 +5,6 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include "lidarData.hpp"
 
-
 using namespace std;
 
 // remove Lidar points based on min. and max distance in X, Y and Z
