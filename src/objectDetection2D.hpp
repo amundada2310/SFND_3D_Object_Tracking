@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 #include <opencv2/core.hpp>
-
 #include "dataStructures.h"
 
 void detectObjects(cv::Mat& img, std::vector<BoundingBox>& bBoxes, float confThreshold, float nmsThreshold, 
