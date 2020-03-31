@@ -5,6 +5,7 @@ With detector type FAST got the best results for both ttc lidar and ttc camera. 
 
 This document provides e ttccamera and ttclidar results for FAST-BRIEF , FAST - BRISK, FAST - ORB, HARRIS - ORB, ORB - ORB, SHITOMASI - ORB combinations for all the frame index.
 
+
 FAST-BRIEF COMBINATION- Results
 
  Time to compute the TTC with camera and Lidar in seconds:
