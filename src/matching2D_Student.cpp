@@ -119,7 +119,6 @@ void matchDescriptors(std::vector<cv::KeyPoint>& kPtsSource, std::vector<cv::Key
 
     if (matcherType.compare("MAT_BF") == 0)
     {
-
         int normType = descriptorType.compare("DES_BINARY") == 0 ? cv::NORM_HAMMING : cv::NORM_L2;
         matcher = cv::BFMatcher::create(normType, crossCheck);
         //if(descriptorType.compare("DES_BINARY"))
